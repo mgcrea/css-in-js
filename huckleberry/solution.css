@@ -9,27 +9,21 @@ body {
   margin: 0;
 }
 
+/* Add styles here! */
 h1,
 h2,
 h3 {
   margin: 0;
 }
 
-/* Add styles here! */
+html {
+  font-size: 18px;
+}
 
 .max-width-wrapper {
   max-width: 800px;
   padding: 0 24px;
   margin: 0 auto;
-}
-
-header {
-  background-color: white;
-  border-bottom: 8px solid hsl(0deg 0% 40%);
-}
-
-h1 {
-  padding-bottom: 24px;
 }
 
 .intro-chunk {
@@ -46,6 +40,15 @@ h1 {
   color: hsl(160deg 100% 30%);
 }
 
+.intro-chunk .title {
+  margin-bottom: 48px;
+  font-size: 2rem;
+}
+
+header {
+  border-bottom: 8px solid hsl(0deg 0% 40%);
+}
+
 main {
   padding: 96px 0;
   background-color: hsl(0deg 0% 60%);
@@ -58,16 +61,13 @@ main {
   border-bottom: 8px solid hsl(0deg 0% 40%);
 }
 
-.card h2 {
+.indented-heading {
   width: fit-content;
   padding: 16px 32px;
-  background-color: hsl(45deg 100% 50%);
-  border-bottom: 8px solid hsl(45deg 100% 40%);
-}
-
-.card .indented-heading {
   margin-top: -16px;
   margin-left: -32px;
+  background: hsl(45deg 100% 50%);
+  border-bottom: 8px solid hsl(45deg 100% 40%);
 }
 
 .card p {
